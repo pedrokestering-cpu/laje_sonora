@@ -1,4 +1,6 @@
 
+@import url("index.css");
+
 .titulo-pagina {
     font-size: 160px;
     margin-top: 24px;
@@ -26,7 +28,7 @@
 
 .filtro.ativo {
     background-color: var(--tinta);
-    color: white;
+    color: var(--branco);
 }
 
 .lista {
@@ -63,7 +65,7 @@
 }
 
 .etiqueta {
-    background-color: white;
+    background-color: var(--branco);
     padding: 4px 12px;
     font-size: 14px;
     font-weight: 600;
